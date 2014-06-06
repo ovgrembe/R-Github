@@ -1,7 +1,7 @@
-path.data <- 'C:\\Users\\ULB\\Documents\\R\\GSEA_Combat_blasted'
+path.data <- 'C:\\Users\\ULB\\Documents\\R\\'
 
-lnc.cvsn <- read.table(file.path(path.data, 'lnc_deregulated_forGSEA_allSamples.txt'), sep='\t', dec='.', header=TRUE, row.names=1, check.names=FALSE, na.strings='')
-cod.cvsn <- read.table(file.path(path.data, 'allmRNAs_forGSEA_allSamples.txt'), sep='\t', dec='.', header=TRUE, row.names=1, check.names=FALSE, na.strings='')
+lnc.cvsn <- read.table(file.path(path.data, 'xxx.txt'), sep='\t', dec='.', header=TRUE, row.names=1, check.names=FALSE, na.strings='')
+cod.cvsn <- read.table(file.path(path.data, 'xxx2.txt'), sep='\t', dec='.', header=TRUE, row.names=1, check.names=FALSE, na.strings='')
 lnc.C <- lnc.cvsn[,lnc.cvsn[1,]=="cancer"]
 lnc.C <- lnc.C[-1,]
 cod.C <- cod.cvsn[,cod.cvsn[1,]=="cancer"]
