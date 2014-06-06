@@ -17,6 +17,7 @@ cod.C <- apply(cod.C, 2, as.double)
 rownames(cod.C) <- name.gene
 # "bla"
 #bla2
+#bla3
 
 i.cod.C.1 <- sample(1:ncol(cod.C), (ncol(cod.C)-1)/2)
 i.cod.C.2 <- setdiff(1:ncol(cod.C), i.cod.C.1)
